@@ -7,13 +7,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(
-        features ="src/test/java/features"
-        ,glue= "stepDef",
-plugin = ("html:target/cucumber-reports/CucumberTestReport.html"),
-monochrome= true,
-dryRun= false)
+@CucumberOptions(features = "src/test/java/features", glue = "stepDef", plugin = { "pretty",
+		"html:target/site/cucumber-pretty", "json:target/cucumber/cucumber.json" }, monochrome = true, dryRun = false)
 
 public class Testrunner extends AbstractTestNGCucumberTests {
-    
-    }
+
+}
