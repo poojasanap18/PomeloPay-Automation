@@ -18,15 +18,20 @@ The complete list of tools, you can see in the `pom.xml` file.
 * Maven
 * WebDriver, using ChromeDriver version 105.0.5195.52
 
-Note. Need chrome version 105.0.5195.52 to run the script.
+Note. Need chrome version 105.0.5195.52 to run the script or otherwise use to supported chrome version for chrome browser which stored in src/test/driver folder
 
 ## Running Tests
 * Clone the repository from your fork to this directory
 * Open the project using any Eclipse
 * Run the tests with the script below
 
+```shell
 1. $ mvn clean install
+```
+* To run and generate the report
+```shell
 2. $ mvn verify
+```
 
 ## Test Results
 * Test report automatically generated on `target` folder after finished the test execution
