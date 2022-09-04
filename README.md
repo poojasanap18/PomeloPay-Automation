@@ -18,7 +18,7 @@ The complete list of tools, you can see in the `pom.xml` file.
 * Maven
 * WebDriver, using ChromeDriver version 105.0.5195.52
 
-Note. Need chrome version 105.0.5195.52 to run the script or otherwise use to supported chrome version for chrome browser which stored in src/test/driver folder
+Note. Need chrome version 105.0.5195.52 to run the script or otherwise use to supported chrome version for chrome browser which stored in src/test/java/driver folder.
 
 ## Running Tests
 * Clone the repository from your fork to this directory
